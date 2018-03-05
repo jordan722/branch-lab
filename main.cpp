@@ -1,7 +1,7 @@
 #include <iostream>
 #define DOCTEST_CONFIG_IMPLEMENT
 #include "doctest.h"
-#include "shapes.h"
+#include "triangle.h"
 
 using std::cout;
 using std::endl;
@@ -11,7 +11,7 @@ int main()
 {
   string s;
 
-  s = box(4,3);
+  s = triangle(3);
   cout << s << endl;
   return 0;
 }
